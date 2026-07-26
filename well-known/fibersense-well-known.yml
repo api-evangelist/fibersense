@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://fibersense.com/.well-known/*
+host: https://fibersense.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+note: No .well-known discovery surface published. FiberSense is a managed distributed-fiber-sensing
+  service with no public API/OAuth surface; absence is expected, not a gap.
